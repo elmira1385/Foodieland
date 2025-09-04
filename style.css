@@ -11,3 +11,6 @@ body {
     @apply text-[16px] font-bold text-[#000000];
   }
 }
+@theme {
+  --shadow-k: 10px 20px 40px rgba(41, 64, 70, 0.1); 
+}
