@@ -14,3 +14,10 @@ body {
 @theme {
   --shadow-k: 10px 20px 40px rgba(41, 64, 70, 0.1); 
 }
+@layer components {
+  .blur {
+ -webkit-backdrop-filter: blur(20px);
+ opacity: 0.2;
+ backdrop-filter: blur(20px);
+}
+  }
