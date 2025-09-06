@@ -6,8 +6,8 @@
     <title>food</title>
     <link rel="stylesheet" href="output.css" />
   </head>
-  <body class="py-[40px] h-screen">
-    <header class="flex flex-row justify-between px-[80px]">
+  <body class="h-screen">
+    <header class="flex flex-row justify-between px-[80px] pt-[40px] ">
       <div><img src="imag/Foodieland..png" /></div>
       <div class="flex flex-row gap-[60px]">
         <div class="txt">Home</div>
@@ -28,7 +28,7 @@
         class="px-[75px] mt-[20px] flex justify-center  mb-[200px]"
       >
         <div
-          class="bg-[#E7FAFE] flex flex-1  flex-col p-[50px] rounded-l-[60px] gap-8"
+          class="bg-[#E7FAFE] flex flex-1 flex-col p-[50px] rounded-l-[60px] gap-8"
         >
           <div
             class="bg-[#FFFFFF] w-[156px] h-[45px] flex items-center rounded-[30px] p-[18px] gap-3 shadow-k"
@@ -84,8 +84,8 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-col flex-1 relative">
-          <img src="imag/Mask Group.png" />
+        <div class="flex flex-col  relative">
+          <img class="flex flex-1" src="imag/Mask Group.png" />
           <img class="absolute top-[50px] left-[-50px]" src="imag/Badge.png" />
         </div>
       </section>
@@ -413,20 +413,44 @@
           </div>
         </div>
       </section>
-      <section class="flex">
-        <div class="flex flex-col flex-1">
-          <p>Everyone can be a chef in their own kitchen</p>
-          <span
+      <section class="flex mx-20 gap-[70px] mt-[70px]">
+        <div class="flex flex-col flex-1 gap-6 justify-center ">
+          <p class="font-semibold text-5xl">Everyone can be a chef in their own kitchen</p>
+          <span class="font-normal text-[16px] text-[#00000099] mb-[72px] "
             >Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad
             minim
           </span>
-          <button>Learn More</button>
+          <button class="w-[180px] h-[60px] bg-[#000000] text-[#FFFFFF] font-semibold text-[14px] rounded-2xl">Learn More</button>
         </div>
-        <div class="flex flex-col flex-1">
-          <img src="imag/Group 880.png" alt="">
+        <div>
+          <img class="flex flex-col flex-1"  src="imag/Group 880.png" alt="">
         </div>
       </section>
+      <section class="flex flex-col gap-[64px]  mx-[80px] mt-[72px] h-full bg-[url(imag/baner.png)] bg-contain bg-no-repeat py-[80px] px-[330px]">
+           <div class="flex flex-col items-center justify-center gap-6 ">
+             <p  class="font-semibold text-5xl ">Deliciousness to your inbox</p>
+             <span class="font-normal text-[16px] text-[#00000099] text-center "
+            >Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad
+            minim
+          </span>
+           </div>
+           <div class="flex  justify-center">
+           <form class=" w-[480px] bg-white  pl-[32px]  rounded-3xl space-x-[74px]">
+              <input class="outline-none py-[31px]" type="text" placeholder="Your email address...">
+              <input class="w-[160px] h-[60px] bg-black text-white rounded-2xl font-semibold text-[14px]" type="submit" value="Subscribe">
+           </form>
+           </div>
+      </section>
     </main>
+    <footer>
+      <div class="flex  mx-[80px] my-[80px]">
+          <div class="flex flex-col gap-4 ">
+           <div><img src="imag/Foodieland..png" ></div>
+           <div><p class="font-normal text-[16px] text-[#00000099]">Lorem ipsum dolor sit amet, consectetuipisicing elit, </p></div>
+          </div>
+        </div>
+    </footer>
   </body>
 </html>
